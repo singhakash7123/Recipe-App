@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600px;
+}
+.container{
+    min-height: 100vh ;
+    background-color:white;
+    
+   
+}
+.wrapper{
+    min-height: 400px;
+    /* background-color: cadetblue; */
+    max-width: 1200px;
+    width: 100%;
+    padding: 1.0rem;
+    margin: 0 auto;
+    line-height: 1.8;
+     text-align: center;
+     letter-spacing: 2px;
+   
+}
+
+.wrapper .search-header{
+    width: 100%;
+   margin-bottom: 25px;
+}
+.search-meals{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.search-box{
+    width: 75%;
+    padding: 5px 10px 5px 15px;
+    border-radius: 25px 0px 0px 25px;
+    border: 2px solid orange;
+    border-right: none;
+    color: orange;
+     outline: none;
+}
+.search-btn{
+    width: 75px;
+    color: white;
+    background-color: orangered;
+    border-radius: 0px 25px 25px 0px;
+    border: 2px solid orange;
+    border-left: none;
+    padding: 5px 10px 5px 5px;
+    outline: none;
+}
+
+.result{
+    width: 100%;
+     
+}
+
+.result h2{
+    margin-bottom: 15px;
+   
+    
+}
+
+.result .meals{
+   width: 100%;
+   /* background-color: white; */
+    height: 350px;
+    white-space: nowrap;
+   scrollbar-width: none;
+}
+
+.result .meals .cards{
+     height: 100%;
+     width: 28%;
+    margin: 18px auto;
+     background-color: white;
+     border-radius: 25px;
+     max-width: 264px;
+      overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+.result .meals .cards h2{
+    margin-bottom: 8px;
+}
+.result .meals img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    border: 5px solid peru;
+     border-radius: 25px;
+}
+
+.result .meals .cards button{
+   padding: 8px 15px;
+   border-radius: 25px;
+   background-color: orangered;
+   color: white;
+   font-weight: 600;
+   border: none;  
+}
+
+
+@media screen and (max-width:760px) {
+    .meals{
+        /* background-color: burlywood; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cards{
+        min-width: 210px;
+        margin: 18px 5px ;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search-box{
+        width: 90%;
+    }
+}
+
