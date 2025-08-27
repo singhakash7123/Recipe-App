@@ -81,7 +81,7 @@ html,body{
 
 .result .meals .cards{
      height: 100%;
-     width: 28%;
+     width: 35%;
     margin: 18px auto;
      background-color: white;
      border-radius: 25px;
@@ -118,7 +118,7 @@ html,body{
         flex-wrap: wrap;
     }
     .cards{
-        min-width: 210px;
+        min-width: 270px;
         margin: 18px 5px ;
     }
     .wrapper{
@@ -130,4 +130,5 @@ html,body{
         width: 90%;
     }
 }
+
 
