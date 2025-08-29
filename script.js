@@ -42,7 +42,7 @@ else{
                      let x = ele.parentNode.childNodes[1].innerHTML
                     let ingre = ele.parentNode.parentNode.childNodes[5]
     
-                  ingre.addEventListener('mouseout',()=>[
+                  ingre.addEventListener('dblclick',()=>[
                     ingre.innerHTML = '' 
                    ])
                    console.log(ingre);
@@ -124,4 +124,5 @@ else{
         
 
     
+
 
